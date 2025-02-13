@@ -1,3 +1,10 @@
+/**
+ * Escala de Coma de Glasgow
+ * autor: @Robert Emanuel
+ * data: 10/06/2021
+ * descrição: Programa que calcula o nível de consciência de um paciente
+ *           a partir da Escala de Coma de Glasgow.
+ */
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
@@ -28,11 +35,11 @@ public class EscalaGlasgow extends javax.swing.JFrame implements ActionListener 
 
         // criar componentes
 
-        aberturaOcularLabel = new JLabel("Abertura Ocular (1-4):  ");
+        aberturaOcularLabel = new JLabel("Abertura Ocular (1-4):   ");
         aberturaOcularField = new JTextField(10);
-        respostaVerbalLabel = new JLabel("Resposta Verbal (1-5):  ");
+        respostaVerbalLabel = new JLabel("Resposta Verbal (1-5):   ");
         respostaVerbalField = new JTextField(10);
-        respostaMotoraLabel = new JLabel("Resposta Motora (1-6):   ");
+        respostaMotoraLabel = new JLabel("Resposta Motora (1-6):    ");
         respostaMotoraField = new JTextField(10);
 
         calcularButton = new JButton("CALCULAR");
